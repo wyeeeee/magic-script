@@ -43,6 +43,19 @@ db.table("users").select()
 db.table("users").page()
 ```
 
+## 单表高级选项
+
+```js
+// 逻辑删除：delete转update，select自动拼接条件
+db.table("users").logic().delete()
+
+// 不过滤空值
+db.table("users").withBlank().insert({name: "", age: 20})
+
+// 指定查询列
+db.table("users").column("id").column("name").select()
+```
+
 ## 条件查询
 
 ```js

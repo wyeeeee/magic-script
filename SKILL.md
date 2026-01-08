@@ -9,18 +9,20 @@ Magic-API 是基于 Spring Boot 的低代码接口开发平台，接口逻辑使
 
 ## 参考文档
 
-根据任务类型查阅对应文档：
+根据任务类型查阅对应文档,只在需要时加载对应文档：
 
 | 任务 | 文档 |
 |------|------|
-| 语法/类型/流程控制 | [syntax.md](./docs/syntax.md) |
-| 数据库基础操作 | [database.md](./docs/database.md) |
-| 事务/单表CRUD/缓存 | [database-advanced.md](./docs/database-advanced.md) |
-| HTTP/请求/响应 | [modules.md](./docs/modules.md) |
-| magic/env/log/参数获取 | [modules-extra.md](./docs/modules-extra.md) |
-| 内置函数 | [functions.md](./docs/functions.md) |
-| 基础代码示例 | [examples.md](./docs/examples.md) |
-| 高级代码示例 | [examples-advanced.md](./docs/examples-advanced.md) |
+| 语法/类型/流程控制 | [syntax.md](./references/syntax.md) |
+| 数据库基础操作 | [database.md](./references/database.md) |
+| 事务/单表CRUD/缓存 | [database-advanced.md](./references/database-advanced.md) |
+| HTTP/请求/响应 | [modules.md](./references/modules.md) |
+| magic/env/log/参数获取 | [modules-extra.md](./references/modules-extra.md) |
+| 内置函数 | [functions.md](./references/functions.md) |
+| Lambda/Linq操作 | [lambda-linq.md](./references/lambda-linq.md) |
+| 类型扩展方/函数调用/异步调用 | [java-interop.md](./references/java-interop.md) |
+| 基础代码示例 | [examples.md](./references/examples.md) |
+| 高级代码示例 | [examples-advanced.md](./references/examples-advanced.md) |
 
 
 ### 职责边界声明

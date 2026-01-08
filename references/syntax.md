@@ -83,3 +83,37 @@ import http
 - 空集合/空Map/空数组
 - 数值`0`
 - `false`
+
+## 扩展运算符
+
+```js
+// lambda调用
+var sum = (a, b, c) => a + b + c
+sum(...[1, 2, 3])  // 6
+
+// list展开
+var arr = [3, 4, 5]
+[1, 2, ...arr, 6, 7]  // [1,2,3,4,5,6,7]
+
+// map展开
+var map = {key2: 2}
+{key1: 1, ...map, key3: 3}  // {key1=1, key2=2, key3=3}
+```
+
+## 其他关键字
+
+| 关键字 | 说明 |
+|--------|------|
+| `continue` | 执行下一次循环 |
+| `break` | 跳出循环 |
+| `instanceof` | 判断对象是否为某类实例 |
+
+## 嵌入其它脚本语言
+
+```js
+var name = "hello"
+var test = ```javascript
+    name + ' ~ world'
+```
+return test()
+```

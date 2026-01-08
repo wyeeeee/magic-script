@@ -51,3 +51,17 @@ return db.select(sql)
 ```
 
 支持标签: `<if>` `<else>` `<elseif>` `<where>` `<set>` `<foreach>` `<trim>`
+
+## 存储过程调用
+
+```js
+// 入参格式： #{参数名}
+// 出参格式： @{参数名, java.sql.Types的类型字符串}
+// 出入参格式：@{参数名(值), java.sql.Types的类型字符串}
+var cs1 = body.cs1
+var cs2 = body.cs2
+return db.call("""
+    call test(#{cs1}, @{height(cs2), INTEGER}, @{v_area, VARCHAR})
+""")
+// 返回: {height: 10, v_area: "16.85"}
+```
