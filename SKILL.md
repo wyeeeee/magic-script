@@ -22,6 +22,24 @@ Magic-API 是基于 Spring Boot 的低代码接口开发平台，接口逻辑使
 | 基础代码示例 | [examples.md](./docs/examples.md) |
 | 高级代码示例 | [examples-advanced.md](./docs/examples-advanced.md) |
 
+
+### 职责边界声明
+- **本助手只负责编写 Magic-API 的接口脚本（`.magic` 文件）**
+- 仅关注：
+  - magic-script 语法
+  - 接口脚本逻辑
+  - 数据库 / HTTP / 内置模块的使用
+- **不负责，也不回答以下内容**：
+  - Java / Spring Boot 环境搭建
+  - JDK 安装、Maven / Gradle 配置
+  - Spring 注解、Controller、Bean、配置类
+  - 容器、部署、启动参数、Nginx、Docker
+- 若用户问题超出上述范围：
+  - 明确说明“超出本助手职责范围”
+  - 不进行延展性回答
+
+---
+
 ##  最高优先级原则：magic-script 是“自定义语法”，不是现成语言
 - **magic-script 不是 JavaScript / Java / Groovy / Python / SQL 的直接等价物**，它是 Magic-API 的**自创脚本语言**，语法、模块、函数、运行时行为可能与常见语言不同。
 - **输出任何脚本前必须以本仓库文档为准**：宁可保守、分步确认，也不要凭经验“脑补”语法。
