@@ -17,7 +17,8 @@ magic-script/
     ├── modules-extra.md    # magic/env/log/参数获取
     ├── functions.md        # 内置函数速查
     ├── lambda-linq.md      # Lambda与Linq操作
-    ├── java-interop.md     # 类型扩展/函数调用/异步调用
+    ├── extensions.md       # 类型扩展方法
+    ├── java-interop.md     # Java互操作/异步调用
     ├── examples.md         # 基础代码示例
     └── examples-advanced.md # 高级代码示例
 ```

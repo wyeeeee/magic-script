@@ -20,7 +20,8 @@ Magic-API 是基于 Spring Boot 的低代码接口开发平台，接口逻辑使
 | magic/env/log/参数获取 | [modules-extra.md](./references/modules-extra.md) |
 | 内置函数 | [functions.md](./references/functions.md) |
 | Lambda/Linq操作 | [lambda-linq.md](./references/lambda-linq.md) |
-| 类型扩展方/函数调用/异步调用 | [java-interop.md](./references/java-interop.md) |
+| 类型扩展方法 | [extensions.md](./references/extensions.md) |
+| Java互操作/函数调用/异步调用 | [java-interop.md](./references/java-interop.md) |
 | 基础代码示例 | [examples.md](./references/examples.md) |
 | 高级代码示例 | [examples-advanced.md](./references/examples-advanced.md) |
 
