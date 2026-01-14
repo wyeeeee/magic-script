@@ -8,7 +8,6 @@ Magic-API 脚本开发助手技能，用于帮助 AI 编写 magic-api 接口脚�
 magic-script/
 ├── SKILL.md                # 主文件(元数据+核心说明+索引)
 ├── README.md               # 本文件
-├── docs/                   # 原始文档(参考备份)
 └── references/             # 精简参考文档(按需加载)
     ├── syntax.md           # 语法/类型/流程控制
     ├── database.md         # 数据库基础操作
